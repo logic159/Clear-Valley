@@ -585,6 +585,7 @@ margin-top: 160px;
 
 
 
+
 /* Footer Base Styles */
 .footer {
   background-color: #333;
@@ -644,5 +645,10 @@ margin-top: 160px;
   }
   .footer .container {
     padding: 0 10px;
+  }
+}
+@media (min-width: 768px) {
+  .nav-bg-control {
+    background-color: rgba(0, 0, 0, 0);
   }
 }
