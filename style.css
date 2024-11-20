@@ -40,10 +40,7 @@
   }
 }
 
-.mens {
-  height: 60px;
-  width: 60px;
-}
+
 .navbar-brand {
   color: black !important;
 }
@@ -51,6 +48,10 @@
   width: 30px;
   height: auto;
   margin-right: 10px;
+}
+.mens {
+  height: 60px;
+  width: 60px !important;
 }
 .container .btn-primary {
   padding: 10px 20px;
@@ -381,7 +382,9 @@ h3 {
   margin-left: 860px;
   margin-top: 320px;
 }
-
+.text-single-line{
+  white-space: nowrap;
+}
 @media (min-width: 767px) and (max-width: 992px) {
 	.textdd2{
 	width: 40%;
