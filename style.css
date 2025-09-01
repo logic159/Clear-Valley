@@ -20,7 +20,7 @@
   flex-grow: 1;
   align-items: center;
   text-align: center;
-  background-color: honeydew;
+  background-color: rgba(211, 215, 227, 0.488);
 }
 /* Mobile-specific Styles */
 
@@ -106,7 +106,7 @@
 .content-section {
   width: 100%;
   height: 1080px;
-  background-image: url("images/D0hgfkwCD3pIhUX4KAmxix-4096x4096.webp");
+  background-image: url("images/Product-Photo-01.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -198,8 +198,10 @@ h3 {
 .content-ddd{
   height: 420px;
   margin-top: 60px;
+  /* margin-right:-50px; */
+  /* margin-left:100px; */
   padding: 0px;
-  background-image: url("images/GZ2IOBYOwAKKxESaK3hcPo-4096x4096.webp");
+  background-image: url("images/Product-Photo-03.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -209,7 +211,7 @@ h3 {
   margin-top: 100px;
   height: 1150px;
   padding: 0px;
-  background-image: url("images/DP1PYauQhx8HwJXi8YjMTT-4096x4096.webp");
+  background-image: url("images/Product-Photo-02.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -318,7 +320,7 @@ h3 {
 .thirddim{
 	height: 752px;
 	width: 100%;
-	background-image: url("images/FMTybJ2CDTlHqKiM6voryr-4096x4096.webp");
+	background-image: url("images/Product-Photo-06.webp");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -442,7 +444,7 @@ h3 {
 .bg-image {
 	width: 100%;
 	height: 1080px;
-    background-image: url("images/Hev3cWTIuFQITqQqgy7IuR-4096x4096.webp"); /* Replace with your image path */
+    background-image: url("images/Product-Photo-04.webp"); /* Replace with your image path */
     background-size: cover; /* Makes the image cover the entire container */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -454,7 +456,7 @@ margin-top: 160px;
 	height: 1016px;
 	padding: 0px;
 	width: 55%;
-	background-image: url("images/O3JBNJreinKwpdYyrwKcj-4096x4096.webp");
+	background-image: url("images/Product-Photo-05.webp");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -511,10 +513,12 @@ margin-top: 160px;
 		margin-top: 20px;
   margin-left: 210px;
 	}
-.cardd2{
-		margin-left: 496px;
-  margin-top: -154px;
-	}
+
+.cardd2 {
+    margin-left: 210px;
+    margin-top: 5px;
+}
+	
 
 @media screen and (max-width: 767px) {
 	.bg-image {
@@ -578,8 +582,8 @@ margin-top: 160px;
 		margin-left: 36px;
 	}
 	.cardd2{
-	margin-left: 36px;
     margin-top: 0px;
+	margin-left: 36px;
 	}
 }
 
